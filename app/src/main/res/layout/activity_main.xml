@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:layout_weight="9"
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radiobutton1"
+            android:text="首页"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/radiobutton2"
+            android:text="圈子"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/radiobutton3"
+            android:text="购物车"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/radiobutton4"
+            android:text="订单"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/radiobutton5"
+            android:text="我的"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+</LinearLayout>

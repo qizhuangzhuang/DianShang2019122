@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_GoodsPic"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/tv_GoodsName"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="热销新品"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_CategroyPrice"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="价格"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
